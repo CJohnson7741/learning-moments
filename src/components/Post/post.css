@@ -1,0 +1,83 @@
+.post {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.post:hover {
+  transform: scale(1.02);
+}
+
+.post-title,
+.post-body {
+  margin-bottom: 15px;
+}
+
+.post-info {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.post-title div,
+.post-body div {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.post-meta {
+  font-size: 0.9em;
+  color: #888;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* Center the search bar */
+}
+
+.post-search {
+  width: 100%;
+  max-width: 400px; /* Limit the width of the search input */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.2s;
+}
+
+.post-search::placeholder {
+  color: #aaa; /* Placeholder text color */
+}
+
+.post-search:focus {
+  outline: none; /* Remove default outline */
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow on focus */
+}
+
+.dropdown-filter {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown-filter select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.2s;
+}
+
+.dropdown-filter select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
